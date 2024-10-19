@@ -46,6 +46,9 @@
         .button-secondary:hover {
             background-color: #0056b3;
         }
+        .frgt-pass-btn{
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -57,7 +60,8 @@
         <a href="login.php" class="button">Log In</a>
 
         <p>New patient? Create an account:</p>
-        <a href="register_patient.php" class="button button-secondary">Register as a Patient</a>
+        <a href="register_patient.php" class="button button-secondary">Register as a Patient</a></br>
+        <a href="forgot_password.php" class="frgt-pass-btn button-3rd">Forgot Password</a>
     </div>
 
 </body>
